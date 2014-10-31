@@ -1,30 +1,16 @@
 package com.example.scoreviewer2;
 
-import java.lang.reflect.Field;
-
 import android.app.Activity;
-import android.app.ActionBar;
-import android.app.Fragment;
-import android.content.BroadcastReceiver;
-import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.GestureDetector;
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.MotionEvent;
-import android.view.View;
-import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
-import android.os.Build;
 
 import com.google.android.glass.eye.EyeGesture;
 import com.google.android.glass.eye.EyeGestureManager;
-import com.google.android.glass.eye.EyeGestureManager.Listener;
 
 
 public class MainActivity extends Activity implements GestureDetector.OnGestureListener {
@@ -60,12 +46,6 @@ public class MainActivity extends Activity implements GestureDetector.OnGestureL
     protected void onStart() {
         super.onStart();
 
-        mEyeGestureManager.stopDetector(target1);
-        mEyeGestureManager.stopDetector(target2);
-
-        mEyeGestureManager.enableDetectorPersistently(target1, true);
-        mEyeGestureManager.enableDetectorPersistently(target2, true);
-
         mEyeGestureManager.register(target1, mEyeGestureListener);
         mEyeGestureManager.register(target2, mEyeGestureListener);
     }
@@ -77,12 +57,10 @@ public class MainActivity extends Activity implements GestureDetector.OnGestureL
         mEyeGestureManager.unregister(target1, mEyeGestureListener);
         mEyeGestureManager.unregister(target2, mEyeGestureListener);
 
-        mEyeGestureManager.stopDetector(target1);
-        mEyeGestureManager.stopDetector(target2);
     }
 
 	
-    private class EyeGestureListener  implements Listener  {
+    private class EyeGestureListener implements EyeGestureManager.Listener {
 
         @Override
         public void onEnableStateChange(EyeGesture eyeGesture, boolean paramBoolean) {

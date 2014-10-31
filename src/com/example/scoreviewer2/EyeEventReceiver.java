@@ -1,7 +1,5 @@
 package com.example.scoreviewer2;
 
-import com.google.android.glass.eye.EyeGesture;
-
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
