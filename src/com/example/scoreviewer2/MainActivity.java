@@ -2,6 +2,7 @@ package com.example.scoreviewer2;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.provider.ContactsContract;
 import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
@@ -94,6 +95,7 @@ public class MainActivity extends Activity implements GestureDetector.OnGestureL
     @Override
     public boolean onGenericMotionEvent(MotionEvent event) {
         gestureDetector.onTouchEvent(event);
+
         return true;
     }
 

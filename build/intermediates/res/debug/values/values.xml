@@ -19,10 +19,9 @@
     <string name="clarinet">Clarinet</string>
     <string name="conductor">Conductor</string>
     <string name="drums">Drums</string>
-    <string name="hello_world">Hello world!</string>
     <string name="keys">Piano</string>
-    <string name="start_kevins_piece">Start Armenian Dances</string>
-    <string name="version">v0.5.5</string>
+    <string name="version"> v0.6.0</string>
+    <string name="voice_trigger">Start Score Viewer</string>
     <!-- From: file:/Users/calebadams/Documents/gdkscoreviewer/res/values/styles.xml -->
     <eat-comment />
 
