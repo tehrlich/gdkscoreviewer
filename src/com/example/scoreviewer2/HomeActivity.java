@@ -72,7 +72,7 @@ public class HomeActivity extends Activity {
                 mHandler.post(new Runnable() {
                     @Override
                     public void run(){
-
+                        startWithPart(R.id.conductor);
                         //Services.playSoundEffect(Sounds.SUCCESS);
                     }
                 });
@@ -82,8 +82,7 @@ public class HomeActivity extends Activity {
                 mHandler.post(new Runnable() {
                     @Override
                     public void run(){
-                        //Log.d(Settings.tag,"TAPPED AR");
-                        //startAR();
+                        startWithPart(R.id.keys);
                         //Services.playSoundEffect(Sounds.SUCCESS);
                     }
                 });
@@ -93,7 +92,7 @@ public class HomeActivity extends Activity {
                 mHandler.post(new Runnable() {
                     @Override
                     public void run() {
-                        //showHelp();
+                        startWithPart(R.id.drums);
                         //Services.playSoundEffect(Sounds.SUCCESS);
                     }
                 });
@@ -103,7 +102,7 @@ public class HomeActivity extends Activity {
                 mHandler.post(new Runnable() {
                     @Override
                     public void run() {
-                        //showSettings("");
+                        startWithPart(R.id.clarinet);
                         //Services.playSoundEffect(Sounds.SUCCESS);
                     }
                 });
@@ -113,12 +112,11 @@ public class HomeActivity extends Activity {
                 mHandler.post(new Runnable() {
                     @Override
                     public void run(){
-                        //pickList();
+                        startWithPart(R.id.action_settings);
                         //Services.playSoundEffect(Sounds.SUCCESS);
                     }
                 });
                 return true;
-
             default:
                 return false;
         }
