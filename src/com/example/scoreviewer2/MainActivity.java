@@ -13,6 +13,7 @@ import android.widget.ImageView;
 
 import com.google.android.glass.eye.EyeGesture;
 import com.google.android.glass.eye.EyeGestureManager;
+import com.google.android.glass.media.Sounds;
 
 import java.util.Set;
 
@@ -124,9 +125,10 @@ public class MainActivity extends Activity implements GestureDetector.OnGestureL
 
 	@Override
 	public boolean onDown(MotionEvent arg0) {
-		// TODO Auto-generated method stub
-        Log.i(TAG,"On Down detected");
-		return false;
+        //Log.i(TAG,"On Down detected");
+        //Services.playSoundEffect(Sounds.DISMISSED);
+        //this.finish();
+		return false; // was false
 	}
 
 	@Override
@@ -253,7 +255,7 @@ public class MainActivity extends Activity implements GestureDetector.OnGestureL
                 image.setImageResource(resID);
             }
         } else {
-            Log.e(TAG,"Could not find player part");
+            Log.e(TAG, "Could not find player part");
         }
     }
 

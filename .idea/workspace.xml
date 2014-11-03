@@ -25,57 +25,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc84edda-6bf3-4bff-842e-4141d2b530f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/cond_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/cond_10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/cond_11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/cond_12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/cond_13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/cond_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/cond_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/cond_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/cond_5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/cond_6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/cond_7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/cond_8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/cond_9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/drums_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/drums_10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/drums_11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/drums_12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/drums_13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/drums_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/drums_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/drums_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/drums_5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/drums_6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/drums_7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/drums_8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/drums_9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/piano_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/piano_10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/piano_11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/piano_12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/piano_13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/piano_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/piano_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/piano_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/piano_5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/piano_6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/piano_7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/piano_8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/piano_9.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/xml/start_kevins_piece.xml" afterPath="$PROJECT_DIR$/res/xml/app_voice_trigger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/AndroidManifest.xml" afterPath="$PROJECT_DIR$/bin/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/scoreviewer2/HomeActivity.java" afterPath="$PROJECT_DIR$/src/com/example/scoreviewer2/HomeActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/scoreviewer2/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/example/scoreviewer2/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/com/example/scoreviewer2/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/com/example/scoreviewer2/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/scoreviewer2/Settings.java" afterPath="$PROJECT_DIR$/src/com/example/scoreviewer2/Settings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gdkscoreviewer.iws" />
@@ -99,11 +54,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HomeActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HomeActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/scoreviewer2/HomeActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.7724253" vertical-offset="88" max-vertical-offset="1950">
-              <caret line="106" column="50" selection-start-line="106" selection-start-column="50" selection-end-line="106" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1333" max-vertical-offset="1950">
+              <caret line="152" column="16" selection-start-line="152" selection-start-column="16" selection-end-line="152" selection-end-column="53" />
               <folding>
                 <element signature="e#2221#2265#0" expanded="true" />
                 <element signature="e#2688#2727#0" expanded="true" />
@@ -114,14 +69,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/scoreviewer2/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2263" max-vertical-offset="3630">
-              <caret line="199" column="46" selection-start-line="199" selection-start-column="46" selection-end-line="199" selection-end-column="46" />
+            <state vertical-scroll-proportion="2.217608" vertical-offset="360" max-vertical-offset="3645">
+              <caret line="128" column="8" selection-start-line="128" selection-start-column="8" selection-end-line="129" selection-end-column="24" />
               <folding>
-                <element signature="e#3817#4045#0" expanded="true" />
-                <element signature="e#4013#4014#0" expanded="true" />
+                <element signature="e#3863#4091#0" expanded="true" />
+                <element signature="e#4059#4060#0" expanded="true" />
                 <element signature="method#onFling#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#onLongPress#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#onScroll#0;class#MainActivity#0" expanded="false" />
@@ -729,8 +684,8 @@
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/src/com/example/scoreviewer2/Settings.java" />
-        <option value="$PROJECT_DIR$/src/com/example/scoreviewer2/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/scoreviewer2/HomeActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/scoreviewer2/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -1119,7 +1074,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="746" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1197,8 +1152,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="2415">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
-            <element signature="e#3817#4045#0" expanded="true" />
-            <element signature="e#4013#4014#0" expanded="true" />
+            <element signature="e#3863#4091#0" expanded="true" />
+            <element signature="e#4059#4060#0" expanded="true" />
             <element signature="method#onFling#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onLongPress#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onScroll#0;class#MainActivity#0" expanded="false" />
@@ -1507,30 +1462,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/scoreviewer2/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2263" max-vertical-offset="3630">
-          <caret line="199" column="46" selection-start-line="199" selection-start-column="46" selection-end-line="199" selection-end-column="46" />
-          <folding>
-            <element signature="e#3817#4045#0" expanded="true" />
-            <element signature="e#4013#4014#0" expanded="true" />
-            <element signature="method#onFling#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onLongPress#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onScroll#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onShowPress#0;class#MainActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/scoreviewer2/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7724253" vertical-offset="88" max-vertical-offset="1950">
-          <caret line="106" column="50" selection-start-line="106" selection-start-column="50" selection-end-line="106" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1333" max-vertical-offset="1950">
+          <caret line="152" column="16" selection-start-line="152" selection-start-column="16" selection-end-line="152" selection-end-column="53" />
           <folding>
             <element signature="e#2221#2265#0" expanded="true" />
             <element signature="e#2688#2727#0" expanded="true" />
             <element signature="e#3152#3192#0" expanded="true" />
             <element signature="e#3620#3663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/scoreviewer2/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.217608" vertical-offset="360" max-vertical-offset="3645">
+          <caret line="128" column="8" selection-start-line="128" selection-start-column="8" selection-end-line="129" selection-end-column="24" />
+          <folding>
+            <element signature="e#3863#4091#0" expanded="true" />
+            <element signature="e#4059#4060#0" expanded="true" />
+            <element signature="method#onFling#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onLongPress#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onScroll#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onShowPress#0;class#MainActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>

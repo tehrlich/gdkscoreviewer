@@ -141,7 +141,7 @@ public class HomeActivity extends Activity {
     /** Starts the "Scan Item" activity */
     public void startWithPart() {
         startActivity(new Intent(this, MainActivity.class));
-        finish();
+        //finish();
     }
 
     /** Handles gestures while not in the options menu */
