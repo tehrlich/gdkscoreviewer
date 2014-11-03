@@ -10,8 +10,7 @@
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_height="wrap_content"/>
 
 </RelativeLayout>
 <!-- From: file:/Users/calebadams/Documents/gdkscoreviewer/res/layout/fragment_main.xml -->

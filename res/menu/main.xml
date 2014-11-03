@@ -4,19 +4,19 @@
 
     <item
         android:id="@+id/conductor"
-        android:icon="@drawable/ic_help_50"
+        android:icon="@drawable/ic_eighth_note_50"
         android:title="@string/conductor"/>
     <item
         android:id="@+id/keys"
-        android:icon="@drawable/ic_help_50"
+        android:icon="@drawable/ic_beamed_note_50"
         android:title="@string/keys"/>
     <item
         android:id="@+id/drums"
-        android:icon="@drawable/ic_help_50"
+        android:icon="@drawable/ic_eighth_note_50"
         android:title="@string/drums"/>
     <item
         android:id="@+id/clarinet"
-        android:icon="@drawable/ic_help_50"
+        android:icon="@drawable/ic_beamed_note_50"
         android:title="@string/clarinet"/>
     <item
         android:id="@+id/action_settings"
