@@ -28,6 +28,12 @@
                 android:resource="@xml/start_kevins_piece" />
                         
         </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:immersive="true"
+            />
+
     </application>
 
 </manifest>

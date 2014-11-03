@@ -13,6 +13,11 @@ public final class R {
     public static final class dimen {
         public static final int activity_horizontal_margin=0x7f050000;
         public static final int activity_vertical_margin=0x7f050001;
+        public static final int card_margin=0x7f050002;
+        public static final int result_icon_margin_right=0x7f050003;
+        public static final int timer_margin_left=0x7f050004;
+        public static final int tip_margin_bottom=0x7f050005;
+        public static final int tip_margin_bottom_version=0x7f050006;
     }
     public static final class drawable {
         public static final int event10clar=0x7f020000;
@@ -41,18 +46,38 @@ public final class R {
         public static final int event7clar=0x7f020017;
         public static final int event8clar=0x7f020018;
         public static final int event9clar=0x7f020019;
-        public static final int ic_launcher=0x7f02001a;
-        public static final int img1=0x7f02001b;
-        public static final int img2=0x7f02001c;
+        public static final int ic_angle_50=0x7f02001a;
+        public static final int ic_archive_50=0x7f02001b;
+        public static final int ic_delete_50=0x7f02001c;
+        public static final int ic_document_50=0x7f02001d;
+        public static final int ic_done_50=0x7f02001e;
+        public static final int ic_help_50=0x7f02001f;
+        public static final int ic_launcher=0x7f020020;
+        public static final int ic_no_50=0x7f020021;
+        public static final int ic_pen_50=0x7f020022;
+        public static final int ic_phone_50=0x7f020023;
+        public static final int ic_search_50=0x7f020024;
+        public static final int ic_settings_50=0x7f020025;
+        public static final int ic_world_50=0x7f020026;
+        public static final int img1=0x7f020027;
+        public static final int img2=0x7f020028;
     }
     public static final class id {
-        public static final int action_settings=0x7f090002;
-        public static final int container=0x7f090000;
-        public static final int imageView1=0x7f090001;
+        public static final int action_settings=0x7f090009;
+        public static final int clarinet=0x7f090008;
+        public static final int conductor=0x7f090005;
+        public static final int container=0x7f090003;
+        public static final int drums=0x7f090007;
+        public static final int imageView1=0x7f090004;
+        public static final int keys=0x7f090006;
+        public static final int store_id=0x7f090002;
+        public static final int textView6=0x7f090000;
+        public static final int version=0x7f090001;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int fragment_main=0x7f030001;
+        public static final int activity_home=0x7f030000;
+        public static final int activity_main=0x7f030001;
+        public static final int fragment_main=0x7f030002;
     }
     public static final class menu {
         public static final int main=0x7f080000;
@@ -60,8 +85,13 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f060000;
         public static final int app_name=0x7f060001;
-        public static final int hello_world=0x7f060002;
-        public static final int start_kevins_piece=0x7f060003;
+        public static final int clarinet=0x7f060002;
+        public static final int conductor=0x7f060003;
+        public static final int drums=0x7f060004;
+        public static final int hello_world=0x7f060005;
+        public static final int keys=0x7f060006;
+        public static final int start_kevins_piece=0x7f060007;
+        public static final int version=0x7f060008;
     }
     public static final class style {
         /** 

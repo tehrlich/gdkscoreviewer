@@ -31,31 +31,26 @@ public class HomeActivity extends Activity {
     /** Used to handle screen changes smoothly. */
     private final Handler mHandler = new Handler();
 
-    private final static int FEATURE_VOICE_COMMANDS = 11; // WindowUtils.FEATURE_VOICE_COMMAND
+    /** Tag for logging */
+    private final String TAG = "Home Activity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-
-       //getWindow().requestFeature(FEATURE_VOICE_COMMANDS);
-
         /** Initialize the managers. */
-        //Services.setAudioManager((AudioManager) getSystemService(Context.AUDIO_SERVICE));
+        Services.setAudioManager((AudioManager) getSystemService(Context.AUDIO_SERVICE));
         mGestureDetector = new GestureDetector(this).setBaseListener(mBaseListener);
 
         setContentView(R.layout.activity_home);
-
-        //TextView view = (TextView) findViewById(R.id.store_id);
-        //view.setText("Store: " + Settings.store);
     }
 
     @Override
     public boolean onCreatePanelMenu(int featureId, Menu menu){
-        if (featureId == FEATURE_VOICE_COMMANDS){
-            getMenuInflater().inflate(R.menu.main, menu);
-            return true;
-        }
+        //if (featureId == FEATURE_VOICE_COMMANDS){
+        getMenuInflater().inflate(R.menu.main, menu);
+        //return true;
+        //}
         // Pass through to super to setup touch menu.
         return super.onCreatePanelMenu(featureId, menu);
     }
@@ -73,7 +68,7 @@ public class HomeActivity extends Activity {
                     @Override
                     public void run(){
                         startWithPart(R.id.conductor);
-                        //Services.playSoundEffect(Sounds.SUCCESS);
+                        Services.playSoundEffect(Sounds.SUCCESS);
                     }
                 });
                 return true;
@@ -83,7 +78,7 @@ public class HomeActivity extends Activity {
                     @Override
                     public void run(){
                         startWithPart(R.id.keys);
-                        //Services.playSoundEffect(Sounds.SUCCESS);
+                        Services.playSoundEffect(Sounds.SUCCESS);
                     }
                 });
                 return true;
@@ -93,7 +88,7 @@ public class HomeActivity extends Activity {
                     @Override
                     public void run() {
                         startWithPart(R.id.drums);
-                        //Services.playSoundEffect(Sounds.SUCCESS);
+                        Services.playSoundEffect(Sounds.SUCCESS);
                     }
                 });
                 return true;
@@ -103,7 +98,7 @@ public class HomeActivity extends Activity {
                     @Override
                     public void run() {
                         startWithPart(R.id.clarinet);
-                        //Services.playSoundEffect(Sounds.SUCCESS);
+                        Services.playSoundEffect(Sounds.SUCCESS);
                     }
                 });
                 return true;
@@ -113,7 +108,7 @@ public class HomeActivity extends Activity {
                     @Override
                     public void run(){
                         startWithPart(R.id.action_settings);
-                        //Services.playSoundEffect(Sounds.SUCCESS);
+                        Services.playSoundEffect(Sounds.SUCCESS);
                     }
                 });
                 return true;
@@ -139,7 +134,9 @@ public class HomeActivity extends Activity {
 
     /** Starts the "Scan Item" activity */
     public void startWithPart(int id) {
-        startActivity(new Intent(this, MainActivity.class));
+        Settings.PLAYER_PART = getResources().getString(id);
+        Intent i = new Intent(this, MainActivity.class);
+        startActivity(i);
         finish();
     }
 
@@ -148,12 +145,9 @@ public class HomeActivity extends Activity {
         @Override
         public boolean onGesture(Gesture gesture) {
             if (gesture == Gesture.TAP) {
-                //Services.playSoundEffect(Sounds.TAP);
+                Log.i(TAG,"Tep Detected");
+                Services.playSoundEffect(Sounds.TAP);
                 openOptionsMenu();
-                return true;
-            } else if (gesture == Gesture.TWO_TAP){
-                //Services.playSoundEffect(Sounds.TAP);
-                //listenForCommand(R.string.say_command);
                 return true;
             } else {
                 return false;
