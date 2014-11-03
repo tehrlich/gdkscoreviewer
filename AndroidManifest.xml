@@ -25,7 +25,7 @@
             
             <meta-data
                 android:name="com.google.android.glass.VoiceTrigger"
-                android:resource="@xml/start_kevins_piece" />
+                android:resource="@xml/app_voice_trigger" />
                         
         </activity>
 

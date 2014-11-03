@@ -7,5 +7,6 @@ package com.example.scoreviewer2;
 public class Settings {
 
         public static String PLAYER_PART = "";
+        public static int TOTAL_PAGES = 0;
 
 }

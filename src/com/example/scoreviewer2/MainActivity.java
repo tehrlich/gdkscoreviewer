@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.util.Log;
 import android.view.GestureDetector;
+import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.Window;
 import android.view.WindowManager;
@@ -13,10 +14,10 @@ import android.widget.ImageView;
 import com.google.android.glass.eye.EyeGesture;
 import com.google.android.glass.eye.EyeGestureManager;
 
+import java.util.Set;
+
 
 public class MainActivity extends Activity implements GestureDetector.OnGestureListener {
-
-    private static final String TAG = "EyeGestureDemo";		
 
     private GestureDetector gestureDetector;
     private EyeGestureManager mEyeGestureManager;
@@ -27,7 +28,8 @@ public class MainActivity extends Activity implements GestureDetector.OnGestureL
     
     private int flag = 1;
     private static int pages = 13;
-    
+
+    private final String TAG = "Main Activity";
     
     @Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -39,8 +41,37 @@ public class MainActivity extends Activity implements GestureDetector.OnGestureL
         mEyeGestureManager = EyeGestureManager.from(this);
         mEyeGestureListener = new EyeGestureListener();
         this.gestureDetector = new GestureDetector(this, this);
- 
 
+        Log.d(TAG,"Player Part is:" + Settings.PLAYER_PART);
+
+        // set the default view
+        if (Settings.PLAYER_PART.equals("Clarinet")) {
+                ImageView image = (ImageView) findViewById(R.id.imageView1);
+                String drawable = "event" + 1 + "clar";
+                int resID = getResources().getIdentifier(drawable, "drawable", "com.example.scoreviewer2");
+                image.setImageResource(resID);
+        }
+        else if (Settings.PLAYER_PART.equals("Conductor")){
+            ImageView image = (ImageView) findViewById(R.id.imageView1);
+            String drawable = "cond_1";
+            int resID = getResources().getIdentifier(drawable, "drawable", "com.example.scoreviewer2");
+            image.setImageResource(resID);
+        }
+        else if (Settings.PLAYER_PART.equals("Drums")){
+            ImageView image = (ImageView) findViewById(R.id.imageView1);
+            String drawable = "drums_1";
+            int resID = getResources().getIdentifier(drawable, "drawable", "com.example.scoreviewer2");
+            image.setImageResource(resID);
+        }
+        else if (Settings.PLAYER_PART.equals("Piano")){
+            ImageView image = (ImageView) findViewById(R.id.imageView1);
+            String drawable = "piano_1";
+            int resID = getResources().getIdentifier(drawable, "drawable", "com.example.scoreviewer2");
+            image.setImageResource(resID);
+        }
+        else {
+            Log.e(TAG,"Could not find player part");
+        }
 	}
 
     @Override
@@ -75,15 +106,7 @@ public class MainActivity extends Activity implements GestureDetector.OnGestureL
                 @Override
                 public void run() {
                     Log.i(TAG, eyeGesture + " is detected");
-                    flag++;
-                    if (flag > pages)
-                    	flag = 1;
-                    ImageView image = (ImageView) findViewById(R.id.imageView1);
-                    String drawable = "event" + flag + "clar";
-                    Log.i(TAG, "String is " + drawable);
-                    int resID = getResources().getIdentifier(drawable, "drawable", "com.example.scoreviewer2");
-                    Log.i(TAG, "resID is " + resID);
-                    image.setImageResource(resID);
+                    iterateCards(true);
                 }
                 
             });
@@ -102,6 +125,7 @@ public class MainActivity extends Activity implements GestureDetector.OnGestureL
 	@Override
 	public boolean onDown(MotionEvent arg0) {
 		// TODO Auto-generated method stub
+        Log.i(TAG,"On Down detected");
 		return false;
 	}
 
@@ -133,17 +157,106 @@ public class MainActivity extends Activity implements GestureDetector.OnGestureL
 
 	@Override
 	public boolean onSingleTapUp(MotionEvent e) {
-        Log.i(TAG, "Tap detected.");
-        flag--;
-        if (flag < 1)
-        	flag = pages;
-        ImageView image = (ImageView) findViewById(R.id.imageView1);
-        String drawable = "event" + flag + "clar";
-        Log.i(TAG, "String is " + drawable);
-        int resID = getResources().getIdentifier(drawable, "drawable", "com.example.scoreviewer2");
-        Log.i(TAG, "resID is " + resID);
-        image.setImageResource(resID);
+        Log.i(TAG, "Single Tap Up detected.");
+        iterateCards(false);
         return true;
 	}
+
+    private void iterateCards(boolean forward){
+        if (Settings.PLAYER_PART.equals("Clarinet")) {
+            Log.i(TAG, "iterate clarinet part");
+            if (forward) {
+                // iterate forward
+                flag++;
+                if (flag > Settings.TOTAL_PAGES)
+                    flag = 1;
+                ImageView image = (ImageView) findViewById(R.id.imageView1);
+                String drawable = "event" + flag + "clar";
+                Log.i(TAG, "String is " + drawable);
+                int resID = getResources().getIdentifier(drawable, "drawable", "com.example.scoreviewer2");
+                Log.i(TAG, "resID is " + resID);
+                image.setImageResource(resID);
+            } else {
+                // iterate backwards
+                flag--;
+                if (flag < 1)
+                    flag = Settings.TOTAL_PAGES;
+                ImageView image = (ImageView) findViewById(R.id.imageView1);
+                String drawable = "event" + flag + "clar";
+                int resID = getResources().getIdentifier(drawable, "drawable", "com.example.scoreviewer2");
+                image.setImageResource(resID);
+            }
+        }
+        else if (Settings.PLAYER_PART.equals("Conductor")){
+            Log.i(TAG, "iterate Conductor part");
+            if (forward) {
+                // iterate forward
+                flag++;
+                if (flag > Settings.TOTAL_PAGES)
+                    flag = 1;
+                ImageView image = (ImageView) findViewById(R.id.imageView1);
+                String drawable = "cond_" + flag;
+                int resID = getResources().getIdentifier(drawable, "drawable", "com.example.scoreviewer2");
+                image.setImageResource(resID);
+            } else {
+                // iterate backwards
+                flag--;
+                if (flag < 1)
+                    flag = Settings.TOTAL_PAGES;
+                ImageView image = (ImageView) findViewById(R.id.imageView1);
+                String drawable = "cond_" + flag;
+                int resID = getResources().getIdentifier(drawable, "drawable", "com.example.scoreviewer2");
+                image.setImageResource(resID);
+            }
+        }
+        else if (Settings.PLAYER_PART.equals("Drums")){
+            Log.i(TAG, "iterate Drums part");
+            if (forward) {
+                // iterate forward
+                flag++;
+                if (flag > Settings.TOTAL_PAGES)
+                    flag = 1;
+                ImageView image = (ImageView) findViewById(R.id.imageView1);
+                String drawable = "drums_" + flag;
+                int resID = getResources().getIdentifier(drawable, "drawable", "com.example.scoreviewer2");
+                image.setImageResource(resID);
+            } else {
+                // iterate backwards
+                flag--;
+                if (flag < 1)
+                    flag = Settings.TOTAL_PAGES;
+                ImageView image = (ImageView) findViewById(R.id.imageView1);
+                String drawable = "drums_" + flag;
+                int resID = getResources().getIdentifier(drawable, "drawable", "com.example.scoreviewer2");
+                image.setImageResource(resID);
+            }
+        }
+        else if (Settings.PLAYER_PART.equals("Piano")){
+            Log.i(TAG, "iterate Piano part");
+            if (forward) {
+                // iterate forward
+                flag++;
+                if (flag > Settings.TOTAL_PAGES)
+                    flag = 1;
+                ImageView image = (ImageView) findViewById(R.id.imageView1);
+                String drawable = "piano_" + flag;
+                int resID = getResources().getIdentifier(drawable, "drawable", "com.example.scoreviewer2");
+                image.setImageResource(resID);
+            } else {
+                // iterate backwards
+                flag--;
+                if (flag < 1)
+                    flag = Settings.TOTAL_PAGES;
+                ImageView image = (ImageView) findViewById(R.id.imageView1);
+                String drawable = "piano_" + flag;
+                int resID = getResources().getIdentifier(drawable, "drawable", "com.example.scoreviewer2");
+                image.setImageResource(resID);
+            }
+        } else {
+            Log.e(TAG,"Could not find player part");
+        }
+    }
+
 }
+
 

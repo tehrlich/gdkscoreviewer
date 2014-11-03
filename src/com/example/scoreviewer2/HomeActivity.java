@@ -67,7 +67,9 @@ public class HomeActivity extends Activity {
                 mHandler.post(new Runnable() {
                     @Override
                     public void run(){
-                        startWithPart(R.id.conductor);
+                        Settings.PLAYER_PART = getResources().getString(R.string.conductor);
+                        Settings.TOTAL_PAGES = 13;
+                        startWithPart();
                         Services.playSoundEffect(Sounds.SUCCESS);
                     }
                 });
@@ -77,7 +79,9 @@ public class HomeActivity extends Activity {
                 mHandler.post(new Runnable() {
                     @Override
                     public void run(){
-                        startWithPart(R.id.keys);
+                        Settings.PLAYER_PART = getResources().getString(R.string.keys);
+                        Settings.TOTAL_PAGES = 13;
+                        startWithPart();
                         Services.playSoundEffect(Sounds.SUCCESS);
                     }
                 });
@@ -87,7 +91,9 @@ public class HomeActivity extends Activity {
                 mHandler.post(new Runnable() {
                     @Override
                     public void run() {
-                        startWithPart(R.id.drums);
+                        Settings.PLAYER_PART = getResources().getString(R.string.drums);
+                        Settings.TOTAL_PAGES = 13;
+                        startWithPart();
                         Services.playSoundEffect(Sounds.SUCCESS);
                     }
                 });
@@ -97,7 +103,9 @@ public class HomeActivity extends Activity {
                 mHandler.post(new Runnable() {
                     @Override
                     public void run() {
-                        startWithPart(R.id.clarinet);
+                        Settings.PLAYER_PART = getResources().getString(R.string.clarinet);
+                        Settings.TOTAL_PAGES = 13;
+                        startWithPart();
                         Services.playSoundEffect(Sounds.SUCCESS);
                     }
                 });
@@ -107,7 +115,7 @@ public class HomeActivity extends Activity {
                 mHandler.post(new Runnable() {
                     @Override
                     public void run(){
-                        startWithPart(R.id.action_settings);
+                        showSettings();
                         Services.playSoundEffect(Sounds.SUCCESS);
                     }
                 });
@@ -123,20 +131,16 @@ public class HomeActivity extends Activity {
     }
 
     /** Starts the "Settings" activity */
-    /*
-    public void showSettings(String text){
-        Intent intent = new Intent(this, SettingsActivity.class);
-        intent.putExtra("TEXT", text);
-        startActivity(intent);
+    public void showSettings(){
+        //Intent intent = new Intent(this, SettingsActivity.class);
+        //startActivity(intent);
         finish();
     }
-    */
+
 
     /** Starts the "Scan Item" activity */
-    public void startWithPart(int id) {
-        Settings.PLAYER_PART = getResources().getString(id);
-        Intent i = new Intent(this, MainActivity.class);
-        startActivity(i);
+    public void startWithPart() {
+        startActivity(new Intent(this, MainActivity.class));
         finish();
     }
 
