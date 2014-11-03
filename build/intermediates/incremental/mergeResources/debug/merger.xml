@@ -69,21 +69,21 @@
             <file
                 path="/Users/calebadams/Documents/gdkscoreviewer/res/values/strings.xml"
                 qualifiers="" >
-                <string name="drums" >Drums
-                </string>
                 <string name="version" > v0.6.7
                 </string>
-                <string name="action_settings" >Settings
+                <string name="drums" >Drums
                 </string>
                 <string name="keys" >Piano
                 </string>
-                <string name="voice_trigger" >Start Score Viewer
+                <string name="action_settings" >Settings
                 </string>
                 <string name="app_name" >Score Viewer
                 </string>
-                <string name="clarinet" >Clarinet
+                <string name="voice_trigger" >Start Score Viewer
                 </string>
                 <string name="conductor" >Conductor
+                </string>
+                <string name="clarinet" >Clarinet
                 </string>
             </file>
             <file
@@ -147,11 +147,6 @@
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
-                name="event5clar"
-                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/event5clar.jpg"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
                 name="ic_pen_50"
                 path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-hdpi/ic_pen_50.png"
                 qualifiers="hdpi-v4"
@@ -160,21 +155,6 @@
                 name="ic_world_50"
                 path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-hdpi/ic_world_50.png"
                 qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="event14clar"
-                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/event14clar.jpg"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="event24clar"
-                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/event24clar.jpg"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="event8clar"
-                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/event8clar.jpg"
-                qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="ic_settings_50"
@@ -187,39 +167,9 @@
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
-                name="event10clar"
-                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/event10clar.jpg"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="event13clar"
-                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/event13clar.jpg"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
                 name="ic_no_50"
                 path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-hdpi/ic_no_50.png"
                 qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="event9clar"
-                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/event9clar.jpg"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="event17clar"
-                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/event17clar.jpg"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="event1clar"
-                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/event1clar.jpg"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="event11clar"
-                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/event11clar.jpg"
-                qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="ic_phone_50"
@@ -230,11 +180,6 @@
                 name="ic_delete_50"
                 path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-hdpi/ic_delete_50.png"
                 qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="event2clar"
-                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/event2clar.jpg"
-                qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="ic_help_50"
@@ -252,84 +197,9 @@
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
-                name="event18clar"
-                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/event18clar.jpg"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="event6clar"
-                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/event6clar.jpg"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="event25clar"
-                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/event25clar.jpg"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="event20clar"
-                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/event20clar.jpg"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
                 name="ic_document_50"
                 path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-hdpi/ic_document_50.png"
                 qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="event15clar"
-                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/event15clar.jpg"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="event4clar"
-                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/event4clar.jpg"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="event23clar"
-                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/event23clar.jpg"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="event12clar"
-                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/event12clar.jpg"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="event16clar"
-                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/event16clar.jpg"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="event7clar"
-                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/event7clar.jpg"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="event26clar"
-                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/event26clar.jpg"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="event22clar"
-                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/event22clar.jpg"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="event19clar"
-                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/event19clar.jpg"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="event21clar"
-                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/event21clar.jpg"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="event3clar"
-                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/event3clar.jpg"
-                qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="ic_eighth_note_50"
@@ -544,6 +414,71 @@
             <file
                 name="cond_6"
                 path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/cond_6.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="clar_8"
+                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/clar_8.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="clar_7"
+                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/clar_7.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="clar_3"
+                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/clar_3.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="clar_13"
+                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/clar_13.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="clar_9"
+                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/clar_9.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="clar_12"
+                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/clar_12.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="clar_6"
+                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/clar_6.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="clar_5"
+                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/clar_5.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="clar_1"
+                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/clar_1.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="clar_4"
+                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/clar_4.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="clar_10"
+                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/clar_10.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="clar_2"
+                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/clar_2.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="clar_11"
+                path="/Users/calebadams/Documents/gdkscoreviewer/res/drawable-mdpi/clar_11.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
         </source>
