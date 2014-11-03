@@ -28,7 +28,6 @@ public class MainActivity extends Activity implements GestureDetector.OnGestureL
     private EyeGesture target2 = EyeGesture.DOUBLE_BLINK;
     
     private int flag = 1;
-    private static int pages = 13;
 
     private final String TAG = "Main Activity";
     
@@ -48,7 +47,7 @@ public class MainActivity extends Activity implements GestureDetector.OnGestureL
         // set the default view
         if (Settings.PLAYER_PART.equals("Clarinet")) {
                 ImageView image = (ImageView) findViewById(R.id.imageView1);
-                String drawable = "event" + 1 + "clar";
+                String drawable = "clar_1";
                 int resID = getResources().getIdentifier(drawable, "drawable", "com.example.scoreviewer2");
                 image.setImageResource(resID);
         }
@@ -173,7 +172,7 @@ public class MainActivity extends Activity implements GestureDetector.OnGestureL
                 if (flag > Settings.TOTAL_PAGES)
                     flag = 1;
                 ImageView image = (ImageView) findViewById(R.id.imageView1);
-                String drawable = "event" + flag + "clar";
+                String drawable = "clar_" + flag;
                 Log.i(TAG, "String is " + drawable);
                 int resID = getResources().getIdentifier(drawable, "drawable", "com.example.scoreviewer2");
                 Log.i(TAG, "resID is " + resID);
@@ -184,7 +183,7 @@ public class MainActivity extends Activity implements GestureDetector.OnGestureL
                 if (flag < 1)
                     flag = Settings.TOTAL_PAGES;
                 ImageView image = (ImageView) findViewById(R.id.imageView1);
-                String drawable = "event" + flag + "clar";
+                String drawable = "clar_" + flag;
                 int resID = getResources().getIdentifier(drawable, "drawable", "com.example.scoreviewer2");
                 image.setImageResource(resID);
             }
