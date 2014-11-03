@@ -3,9 +3,24 @@
     tools:context="com.example.scoreviewer2.MainActivity" >
 
     <item
+        android:id="@+id/conductor"
+        android:icon="@drawable/ic_help_50"
+        android:title="@string/conductor"/>
+    <item
+        android:id="@+id/keys"
+        android:icon="@drawable/ic_help_50"
+        android:title="@string/keys"/>
+    <item
+        android:id="@+id/drums"
+        android:icon="@drawable/ic_help_50"
+        android:title="@string/drums"/>
+    <item
+        android:id="@+id/clarinet"
+        android:icon="@drawable/ic_help_50"
+        android:title="@string/clarinet"/>
+    <item
         android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:showAsAction="never"
+        android:icon="@drawable/ic_settings_50"
         android:title="@string/action_settings"/>
 
 </menu>
