@@ -3,7 +3,7 @@
 
     <!-- NON TRIVIAL STRINGS -->
     <string name="app_name">Score Viewer</string>
-    <string name="version">v0.5.5</string>
+    <string name="version"> v0.6.0</string>
     <string name="conductor">Conductor</string>
     <string name="keys">Piano</string>
     <string name="drums">Drums</string>

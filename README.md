@@ -12,7 +12,7 @@ Blinking libraries based off of the following two repos:
 * Blinking Library: [https://github.com/thorikawa/EyeGestureLib/issues/2#issuecomment-61172704]
 * Modifications of Blinking Library: [https://github.com/thorikawa/EyeGestureLib/issues/2#issuecomment-61172704]
 
-Curretly stabe with: 
+Currently stable with:
 
 + XE22
 + Android Studio v0.8.6
