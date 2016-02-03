@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.scoreviewer2.MainActivity" >
+
+    <item
+        android:id="@+id/conductor"
+        android:icon="@drawable/ic_eighth_note_50"
+        android:title="@string/conductor"/>
+    <item
+        android:id="@+id/keys"
+        android:icon="@drawable/ic_beamed_note_50"
+        android:title="@string/keys"/>
+    <item
+        android:id="@+id/drums"
+        android:icon="@drawable/ic_eighth_note_50"
+        android:title="@string/drums"/>
+    <item
+        android:id="@+id/clarinet"
+        android:icon="@drawable/ic_beamed_note_50"
+        android:title="@string/clarinet"/>
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_settings_50"
+        android:title="@string/action_settings"/>
+
+</menu>
+<!-- From: file:/Users/calebadams/Documents/gdkscoreviewer/res/menu/main.xml -->
