@@ -13,13 +13,6 @@ Blinking libraries based off of the following two repos:
 * Blinking Library: [https://github.com/thorikawa/EyeGestureLib/issues/2#issuecomment-61172704]
 * Modifications of Blinking Library: [https://github.com/thorikawa/EyeGestureLib/issues/2#issuecomment-61172704]
 
-## Pulling the .apk ##
-If for some reason you are unable to root the glass, you can pull the apk with the following code (assuming you have adb installed):
-
-* first, find your package with: <code>adb shell pm list packages</code>
-* then, discover the path to your package: <code>adb shell pm path com.airbnb.android</code>
-* finally, pull the file onto your computer: <code>adb pull /data/app/com.airbnb.android-1.apk</code>
-
 Currently stable with:
 
 + XE22
